@@ -50,7 +50,7 @@ int main() {
             return 0;
         }
         
-        if (marks >= 80 && marks < 100)
+        if (marks >= 80 && marks <= 100)
         grade = 'A';
         
         else if (marks >= 60 && marks < 80)
